@@ -1,0 +1,1 @@
+require.config({path:{app:"app",tcb:"app/tcb",piao:"app/piao",ditu:"app/ditu"},shim:{tcb:{exports:"la"},piao:{exports:"p"},ditu:{exports:"mp"}}}),define(["tcb","piao","ditu"],function(p,i,t){p(),i(),t()});

@@ -1,0 +1,1 @@
+function clo(){var e=document.querySelector("#clo"),n=document.querySelector("#banner");e.onclick=function(){n.style.display="none"}}

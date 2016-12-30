@@ -1,0 +1,1 @@
+require.config({path:{app:"app",lunbo:"app/lunbo",hover:"app/hover",tcb:"app/tcb",ditu:"app/ditu"},shim:{lunbo:{exports:"o"},hover:{exports:"ov"},tcb:{exports:"la"},ditu:{exports:"mp"}}}),define(["lunbo","hover","tcb","ditu"],function(p,o,t,e){p(),o(),t(),e()});

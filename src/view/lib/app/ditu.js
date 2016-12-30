@@ -1,0 +1,1 @@
+function mp(){var e=document.querySelector("#di"),c=document.querySelector("#map"),o=document.querySelector("#close");e.onclick=function(){c.style.display="block"},o.onclick=function(){c.style.display="none"}}

@@ -1,0 +1,1 @@
+function p(){for(var e=document.querySelectorAll(".nn"),t=null,n=document.querySelector("#piao"),o=0;o<e.length;o++)e[o].onmouseover=function(){clearInterval(t);var e=0,o=30,l=n.offsetLeft,r=this.offsetLeft-15,f=r-l;t=setInterval(function(){e++,e>=o&&clearInterval(t),n.style.left=Tween.Bounce.easeOut(e,l,f,o)+"px"},30)}}

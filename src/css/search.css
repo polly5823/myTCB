@@ -1,0 +1,417 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+#warp{
+	font-family: "微软雅黑";
+}
+#hd{
+	width: 100%;
+	background: url(../images/index_02.png);
+	border-bottom: 1px solid #ccc;
+}
+#head{
+	width: 1200px;
+	height: 32px;
+	line-height: 32px;
+	margin: 0 auto;
+	font-size: 14px;
+	position: relative;
+}
+#head a{
+	color: #444;
+}
+#head span:nth-child(1){
+	color: #118855;
+}
+#head span:nth-child(1) a{
+	margin-right: 10px;
+	font-size: 12px;
+}
+#head a:hover{
+	text-decoration: underline;
+}
+#head span:nth-child(2){
+	background: url(../images/bg_03.png) no-repeat left center;
+	padding-left: 15px;
+	font-size: 12px;
+}
+#head ul{
+	float: right;
+}
+#head li{
+	float: left;
+	margin: 0 6px;
+	font-size: 12px;
+}
+#xiala1 img{
+	margin-left: 10px;
+}
+#head .b{
+	background: url(../images/bg_03.png) no-repeat left center;
+	padding-left: 15px; 
+}
+#head #xia{
+	position: absolute;
+	top: 0;
+	right: 67px;
+	width: 95px;
+	height: 0px;
+	background: #fff;
+	overflow: hidden;
+	font-size: 12px;
+	z-index: 999;
+}
+#head #xia a{
+	margin: 0 5px;
+	display: block;
+}
+#xia img{
+	margin-left: 10px;
+}
+.logo{
+	width: 100%;
+	border-bottom: 3px solid #4bac20;
+	padding: 20px 0;
+}
+#search{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+h1{
+	width: 22%;
+}
+#cen{
+	padding: 5px 30px 0 30px;
+	border-left: 1px solid #ccc;
+	color: #999;
+}
+#cen a{
+	font-size: 14px;
+}
+.you span{
+	display: inline-block;
+	padding: 0 6px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	margin: 0 10px 10px 0;
+}
+.you .z{
+	background: #4bac20;
+	color: #fff;
+	border-radius: 3px;
+}
+.you span:hover{
+	background: #4bac20;
+	color: #fff;
+	border-radius: 3px;
+}
+#txt{
+	border: 0;
+}
+.you form{
+	height: 35px;
+	border: 2px solid #4bac20;
+}
+.you form img{
+	margin-right: 10px;
+}
+.you #txt{
+	margin-left: 10px;
+	height: 35px;
+	width: 455px;
+}
+.you button{
+	width: 70px;
+	height: 35px;
+	border: 0;
+	color: #fff;
+	background: #4bac20;
+}
+#banner{
+	width: 80%;
+	height: 115px;
+	margin: 0 auto;
+	background: url(../images/search_03.png) no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+#banner #clo{
+	position: absolute;
+	right: 0;
+	top: 2.5px;
+}
+#ding{
+	width: 109px;
+	border: 1px solid #ccc;
+	position: fixed;
+	right: 0;
+	top: 310px;
+}
+.p1{
+	width: 80%;
+	margin: 15px auto;
+	font-size: 14px;
+	color: #666;
+}
+#lei{
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid #ffdb84;
+	background: #fff9d6;
+}
+#lei p{
+	color: #444;
+	font-size: 14px;
+	margin: 10px;
+	line-height: 25px;
+}
+#lei p:nth-child(1) span{
+	color: red;
+}
+#lei p a{
+	color: #2e74d3;
+	margin: 0 5px;
+}
+#lei p a:hover{
+	color: red;
+	text-decoration: underline;
+}
+#qu{
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+#qu p{
+	color: #444;
+	font-size: 14px;
+	margin: 10px;
+	line-height: 25px;
+}
+#qu p a{
+	display: inline-block;
+	padding: 0 3px;
+	color: #2e74d3;
+	margin: 0 8px;
+}
+#qu p a:hover{
+	background: #2e74d3;
+	color: #fff;
+	border-radius: 2px;
+}
+#qu form{
+	margin: 0 0 10px 50px;
+	width: 305px;
+	height: 28px;
+	border: 1px solid #ffa922;
+}
+#qu input{
+	width: 235px;
+	border: 0;
+	height: 28px;
+	line-height: 28px;
+	text-indent: 1em;
+}
+#qu button{
+	width:70px;
+	color: #fff;
+	border: 0;
+	height: 28px;
+	background: #ffa922;
+}
+#footer{
+	width: 100%;
+	background: fafafa;
+	height: 260px;
+	border-top: 1px solid #eee;
+}
+#main{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+#main #lf{
+	width: 80%;
+}
+#lf{
+	width: 100%;
+}
+#lf .tiao{
+	height: 35px;
+	line-height: 35px;
+	background: #f7f7f7;
+	border: 1px solid #ccc;
+	border-top: 2px solid #4bac20;
+	font-size: 14px;
+}
+#lf .tiao span{
+	display: inline-block;
+	padding: 0 15px;
+	border-right: 1px solid #ccc;
+}
+#lf .tiao #di{
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	border: 1px solid #ccc;
+	float: right;
+	margin:1px 10px 0 0 ;
+	font-size: 12px;
+	cursor: pointer;
+	background: #fff;
+}
+#lf .tiao #yy{
+	float: right;
+	border: 0;
+}
+#lf dl{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	font-size: 12px;
+	line-height: 25px;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+}
+#lf dl dt img{
+	width: 70px;
+	border: 1px solid #ccc;
+	margin: 0 10px;
+}
+#lf dl dd{
+	color: #888;
+}
+.dd1{
+	width: 50%;
+}
+.dd2 span{
+	color: orange;
+}
+#fan{
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+#fan .fanye{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-right: 5px;
+	cursor: pointer;
+	color: #999;
+}
+#fan .xiaye{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	text-align: center;
+	cursor: pointer;
+	color: #999;
+}
+#lf .dd2{
+	width: 15%;
+	text-align: center;
+	margin-top: 20px;
+}
+#lf .dd3{
+	margin: 30px 0 0 40px;
+}
+#lf .dd3 button{
+	background: #ff9414;
+	border: 0;
+	color: #fff;
+	width: 100px;
+	padding: 5px;
+	border-radius: 8px;
+}
+#yy button{
+	border: 1px solid #ccc;
+	font-size: 20px;
+	width: 25px;
+	color: #999;
+	margin: 2px 5px 0 0 ;
+	background: #f5f5f5;
+	border-radius: 5px;
+}
+#lf p span img{
+	margin-right: 5px;
+}
+#main #rg{
+	width: 18%;
+	border: 1px solid #ccc;
+	margin-left: 20px;
+}
+#rg p{
+	width: 100%;
+	font-size: 18px;
+	line-height: 35px;
+	border-bottom: 2px solid #4bac20;
+	text-indent: 1em;
+}
+#rg dl{
+	text-align: center;
+	width: 75%;
+	margin: 0 auto;
+	font-size: 12px;
+	margin-top: 20px;
+}
+#rg dl img{
+	width: 70px;
+	border: 1px solid #ccc;
+}
+#rg dd{
+	line-height: 25px;
+}
+#rg dl .red{
+	color: red;
+}
+#ft{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+#ft p{
+	font-size: 18px;
+}
+#ft p a{
+	font-size: 14px;
+	color: #444;
+}
+#ft .wai{
+	margin-top: 30px;
+}
+#ft .wai img{
+	vertical-align: top;
+}
+#ft .wai p{
+	display: inline-block;
+	margin-left: 10px;
+}
+#der{
+	margin-top: 40px;
+	font-size: 14px;
+	color: #444;
+}
+#der p{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
